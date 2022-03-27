@@ -17,8 +17,8 @@ namespace dejavueVideo
 
     class FaceRecognitionService
     {
-        public const string faceEndPoint = "https://sakerunface.cognitiveservices.azure.com/";
-        public const string faceApiKey = "63eee6fbcbd6482783f0d69f3e664ee0";
+        public const string faceEndPoint = "https://dejavue-face.cognitiveservices.azure.com/";
+        public const string faceApiKey = "c55802a679ff422b9cfacde483911851";
         HttpClient _client;
         public FaceRecognitionService()
         {
